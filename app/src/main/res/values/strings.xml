@@ -1,34 +1,25 @@
 <resources>
-    <string name="app_name">Grocery Store</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Đặt đồ ăn</string>
+    <string name="facebook_app_id">650653130681585</string>
+    <string name="default_web_client_id">899972976202-kstvqtucrsk5a21snom337jnkueifia6.apps.googleusercontent.com</string>
+    <string name="app_notify">Thông Báo</string>
+    <string name="example_address">Số 24/62 Phan Văn Trị …</string>
+    <string name="content_description_image">FOOD</string>
+    <string name="quan_pho_gia_truyen">Quán phở gia truyền</string>
+    <string name="hint_phone">0828–007-xxx</string>
+    <string name="meat_banh_mi">Bánh mì kẹp thịt</string>
+    <string name="example_size">Size S</string>
+    <string name="saved">ĐÃ LƯU</string>
+    <string name="food">Món ăn</string>
+    <string name="restaurants">Quán ăn</string>
+    <string name="money_text_short">13.000</string>
+    <string name="money_text">13.000 VNĐ</string>
+    <string name="food_type">Loại món ăn</string>
+    <string name="example_food_describe">Pizza bao gồm nhiều chất dinh dưỡng chứa nhiều chất xơ và chất đạm thơm ngon mời bạn ăn nha!</string>
+    <string name="restaurant_information">Thông tin cửa hàng</string>
+    <string name="default_quantity">1</string>
+    <string name="add">+</string>
+    <string name="egg_banh_mi">Bánh mì trứng</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="address">Address</string>
-    <string name="login">LOGIN</string>
-    <string name="other_login">Log in another way?</string>
-    <string name="show_pwd">Show Password</string>
-    <string name="hide_pwd">Hide Password</string>
-    <string name="forgot">Forgot password?</string>
-    <string name="closebutton">Close Button for Activity</string>
-    <string name="newUser">Not a Member yet? Sign Up here.</string>
-    <string name="fullName">Full Name</string>
-    <string name="mobileNumber">Mobile Number</string>
-    <string name="location">Location</string>
-    <string name="confirmPassword">Confirm Password</string>
-    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
-    <string name="register">REGiSTER</string>
-    <string name="already_user">Already have Account? Login here.</string>
-    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
-    <string name="submit">SUBMIT</string>
-    <string name="back">BACK</string>
-    <string name="action_Cart">Cart</string>
 </resources>

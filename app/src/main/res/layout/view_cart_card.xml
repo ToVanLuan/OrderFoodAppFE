@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="1dp"
+        android:padding="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_while_rounded"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:elevation="3dp"
+        tools:ignore="UselessParent">
+
+        <!-- Image of food -->
+        <ImageView
+            android:id="@+id/imageCartFood"
+            android:layout_width="65dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_weight="2"
+            android:scaleType="fitXY"
+            android:src="@drawable/slider_1"
+            android:contentDescription="@string/content_description_image" />
+
+        <!-- Vertical divider -->
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:background="@color/white" />
+
+        <!-- Food details -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="6">
+
+            <TextView
+                android:id="@+id/tvFoodNameCart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/egg_banh_mi"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="@color/blue"
+                android:layout_marginStart="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvFoodSizeCart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/example_size"
+                    android:textSize="12sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvFoodPriceCart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:text="@string/money_text"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="@color/red" />
+            </LinearLayout>
+
+            <!-- Quantity control -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/btnSubQuantity_Cart"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/minus" />
+
+                <TextView
+                    android:id="@+id/tvFoodQuantity_Cart"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="@string/default_quantity" />
+
+                <ImageView
+                    android:id="@+id/btnAddQuantity_Cart"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/plus" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Delete button layout -->
+        <LinearLayout
+            android:id="@+id/layout_btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#3F51B5"
+                android:orientation="vertical" />
+
+            <ImageView
+                android:id="@+id/btnDeleteCartItem"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/delete" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

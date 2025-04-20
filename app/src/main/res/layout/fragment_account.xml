@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Ảnh đại diện & Thông tin người dùng -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/card_background">
+
+            <ImageView
+                android:id="@+id/img_avatar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_account"
+                android:scaleType="centerCrop"
+                android:background="@drawable/circle_br" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+
+                <com.example.orderfoodonline.customfonts.MyTextViewSansBold
+                    android:id="@+id/tv_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nguyễn Văn A"
+                    android:textSize="18sp"
+                    android:textColor="@color/black" />
+
+                <com.example.orderfoodonline.customfonts.MyTextViewChangoRegular
+                    android:id="@+id/tv_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="email@example.com"
+                    android:textSize="12dp"
+                    android:maxLines="1"
+                    android:maxWidth="200dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Danh sách chức năng -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:elevation="4dp"
+            android:padding="8dp"
+            android:background="@drawable/card_background">
+
+            <com.example.orderfoodonline.customfonts.MyTextView
+                android:id="@+id/tv_edit_profile"
+                style="@style/SettingItem"
+                android:drawableLeft="@drawable/ic_user"
+                android:text="Thông tin cá nhân" />
+
+            <com.example.orderfoodonline.customfonts.MyTextView
+                android:id="@+id/tv_change_password"
+                style="@style/SettingItem"
+                android:drawableLeft="@drawable/ic_lock"
+                android:text="Đổi mật khẩu" />
+
+            <com.example.orderfoodonline.customfonts.MyTextView
+                android:id="@+id/tv_help_center"
+                style="@style/SettingItem"
+                android:drawableLeft="@drawable/ic_help"
+                android:text="Trung tâm trợ giúp" />
+
+            <com.example.orderfoodonline.customfonts.MyTextView
+                android:id="@+id/history"
+                style="@style/SettingItem"
+                android:drawableLeft="@drawable/ic_history"
+                android:text="Lịch sử" />
+
+            <com.example.orderfoodonline.customfonts.MyTextView
+                android:id="@+id/tv_payment"
+                style="@style/SettingItem"
+                android:drawableLeft="@drawable/ic_wallet"
+                android:text="Phương thức Thanh toán" />
+        </LinearLayout>
+
+        <!-- Logout & Xóa tài khoản -->
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng xuất"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+        <com.example.orderfoodonline.customfonts.MyTextViewOleoScriptBold
+            android:id="@+id/tv_delete_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xóa tài khoản"
+            android:textSize="14sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>

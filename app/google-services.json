@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "899972976202",
+    "project_id": "orderfoodapp-44673",
+    "storage_bucket": "orderfoodapp-44673.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899972976202:android:d302435f0a1506dcae60b3",
+        "android_client_info": {
+          "package_name": "com.example.orderfoodonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899972976202-kn1nrve4scprl0hl6l4rdglnh4f68utq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.orderfoodonline",
+            "certificate_hash": "f63a229e045f3217bfa6392ac9bf42a87f6e602e"
+          }
+        },
+        {
+          "client_id": "899972976202-kstvqtucrsk5a21snom337jnkueifia6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgw995mPmVXZUL_W8gIeqojImYK1POmjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899972976202-kstvqtucrsk5a21snom337jnkueifia6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

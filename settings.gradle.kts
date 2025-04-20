@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "order_food_app"
+rootProject.name = "OrderFoodOnline"
 include(":app")
- 
